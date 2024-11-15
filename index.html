@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta charset="viewport"contet="width=device-width,initial-scale=1,0">
+	<title>Formulario completo</title>
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+	</head>
+	<body>
+
+<form>
+	<fieldset>
+		<h1>Informacion personal</h1>
+		
+	    <label form="fecha_nacimiento">fecha de nacimiento:</label>
+		<input type="date"id="fecha_nacimiento"name="fecha_nacimiento">
+		
+
+		
+		<label form="nombre">Nombre completo</label>
+		<input type="text" id="nombre" name="nombre" required>
+
+   		
+   		<label form="cedula">Cedula de indetificacion</label>
+		<input type="number"id="Cedula"name="cedula"required>
+		
+
+		
+		<label form="email">correo Eletronico</label>
+		<input type="email" id="email"name="email"required>
+		
+
+	
+	</fieldset>
+
+	<fieldset>
+
+		
+		<label form="usuario">Nombre de usuario:</label>
+		<input type="text" id="usuario" name="usuario"required>
+		
+
+		
+		<label form="password">contraseña:</label>
+		<input type="password"id="password"name="password"required>
+		
+
+
+<legend>preferencias</legend>
+<label>genero:</label>
+<label form="masculino">masculino</label>
+<input type="radio"id="masculino"name="genero"value="masculino">
+<label form="femenino">femenino</label>
+<input type="radio" id="femenino" name="genero" value=""femenino>
+</fieldset>
+<fieldset>			   
+<label form="pais">pais:</label>
+<select id="pais"name="pais">
+	<option value="colombia">Colombia</option>
+	<option value="mexico">Mexico</option>
+	<option value="argentina">Argentina</option>
+		   <option value="peru">Peru</option>
+		   <option value="españa">España</option>
+		   <option value="otros">Otros</option>
+		</select>
+
+		  <fieldset>
+		   <label form="comentarios">deja tus comentarios</label>
+		   <textarea id="comentarios"name="comentarios"rows=""></textarea>
+		   </fieldset>
+		   
+		   <button type="submit">Guardar</button>
+		   
+
+	</form>
+</body>
+
